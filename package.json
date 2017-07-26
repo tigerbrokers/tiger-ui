@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "npm run paly",
+    "play": "poi --config play.config.js",
+    "build:play": "poi build --config play.config.js"
+  },
+  "devDependencies": {
+    "poi": "^8.0.0",
+    "vue-play": "^3.2.1"
+  }
+}
