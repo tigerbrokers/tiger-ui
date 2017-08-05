@@ -1,8 +1,8 @@
 
 module.exports = {
   entry: {
-    app: 'play/app.js',
-    preview: [':hot:', 'play/preview.js']
+    app: 'app.js',
+    preview: [':hot:', 'preview.js']
   },
   dist: 'docs',
   port: 5000,
