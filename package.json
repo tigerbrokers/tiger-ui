@@ -28,6 +28,9 @@
   "bugs": {
     "url": "https://github.com/tigerbrokers/tiger-ui/issues"
   },
+  "publishConfig": {
+    "registry": "http://r.npm.tigerbrokers.net"
+  },
   "standard": {
     "ignore": [
       "docs"
