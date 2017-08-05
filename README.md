@@ -55,6 +55,18 @@ new Vue({
 ```
 then create Pull Request.
 
+# Test
+
+Run all tests:
+```bash
+> yarn test
+```
+
+Run test for some component:
+```bash
+> yarn test Example Button
+```
+
 # Not fit your needs?
 
 Clone and make contribution, submit your PRs.

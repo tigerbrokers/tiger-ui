@@ -10,5 +10,6 @@ module.exports = {
     chromedriver.stop()
 
     done()
+    process.exit()
   }
 }
