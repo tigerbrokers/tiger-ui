@@ -2,9 +2,11 @@
   "scripts": {
     "start": "npm run play",
     "play": "standard --fix && poi --config play.config.js",
+    "prepush": "echo 'Run build so that update the docs.'",
     "build": "poi build --config play.config.js"
   },
   "devDependencies": {
+    "husky": "^0.14.3",
     "poi": "^8.0.0",
     "standard": "^10.0.2",
     "vue-play": "^3.2.1"
