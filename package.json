@@ -2,7 +2,7 @@
   "scripts": {
     "start": "npm run play",
     "play": "standard --fix && poi --config play.config.js",
-    "prepush": "echo 'Run build so that update the docs.'",
+    "prepush": "echo 'Run build so that update the docs.' -q",
     "build": "poi build --config play.config.js"
   },
   "devDependencies": {
