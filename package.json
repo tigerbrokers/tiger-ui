@@ -2,7 +2,7 @@
   "scripts": {
     "start": "npm run play",
     "play": "poi --config play.config.js",
-    "precommit": "npm run build; git add docs",
+    "precommit": "npm run lint && npm run build && git add docs",
     "lint": "eslint . --fix",
     "build": "poi build --config play.config.js"
   },
