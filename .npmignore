@@ -1,2 +1,7 @@
 docs
 *.play.js
+play.js
+app.js
+index.js
+play.config.js
+preview.js
