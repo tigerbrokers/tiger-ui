@@ -12,7 +12,7 @@
     "vue-play": "^3.2.1"
   },
   "name": "@tigerbrokers/tiger-ui",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "tigerbrokers ui kit",
   "main": "index.js",
   "dependencies": {},
