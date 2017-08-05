@@ -5,4 +5,3 @@ play(TigerButton)
   .add('TigerButton', {
     template: `<tiger-button></tiger-button>`
   })
-

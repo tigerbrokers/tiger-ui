@@ -5,4 +5,3 @@ play(Example)
   .add('button with text', {
     template: `<example></example>`
   })
-
