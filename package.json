@@ -1,14 +1,20 @@
 {
   "scripts": {
     "start": "npm run play",
-    "play": "standard --fix && poi --config play.config.js",
+    "play": "poi --config play.config.js",
     "precommit": "npm run build; git add docs",
+    "lint": "eslint . --fix",
     "build": "poi build --config play.config.js"
   },
   "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.14.3",
     "poi": "^8.0.0",
-    "standard": "^10.0.2",
     "vue-play": "^3.2.1"
   },
   "name": "@tigerbrokers/tiger-ui",
