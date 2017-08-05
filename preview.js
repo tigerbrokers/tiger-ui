@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unassigned-import */
 
 // ./preview.js
-import './' // which is ./index.js
+import './loader' // which is ./index.js
 import preview from 'vue-play/preview'
 
 // actually render the scenarios in preview page
