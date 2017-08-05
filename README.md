@@ -2,7 +2,6 @@ TigerUI
 ========
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/89ae9b9342a44917b82c9b1c1d9bc712)](https://www.codacy.com/app/ijse/tiger-ui?utm_source=github.com&utm_medium=referral&utm_content=tigerbrokers/tiger-ui&utm_campaign=badger)
-
 [![Build Status](https://travis-ci.org/tigerbrokers/tiger-ui.svg?branch=master)](https://travis-ci.org/tigerbrokers/tiger-ui)
 
 
