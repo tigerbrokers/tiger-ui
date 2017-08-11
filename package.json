@@ -1,9 +1,10 @@
 {
   "scripts": {
     "start": "npm run play",
-    "play": "poi --config play.config.js",
+    "play": "poi dev --config play.config.js",
     "precommit": "npm run lint && npm run build && git add docs",
     "lint": "eslint . --fix",
+    "test": "node .nightwatch/run.js",
     "build": "poi build --config play.config.js"
   },
   "devDependencies": {
@@ -14,13 +15,16 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.14.3",
+    "nightwatch": "^0.9.16",
     "poi": "^8.0.0",
     "vue-play": "^3.2.1"
   },
   "name": "@tigerbrokers/tiger-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "tigerbrokers ui kit",
-  "dependencies": {},
+  "dependencies": {
+    "chromedriver": "^2.31.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tigerbrokers/tiger-ui.git"
