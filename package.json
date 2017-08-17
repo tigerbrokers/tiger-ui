@@ -6,7 +6,7 @@
     "test": "node .nightwatch/run.js",
     "build": "npm run build:dist && npm run build:doc",
     "build:doc": "poi build --config play.config.js",
-    "build:dist": "webpack ."
+    "build:dist": "webpack -p"
   },
   "main": "./dist/tiger-ui.js",
   "module": "./index.js",
@@ -26,6 +26,9 @@
   "version": "0.0.4",
   "description": "tigerbrokers ui kit",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
     "chromedriver": "^2.31.0",
     "css-loader": "^0.28.5",
     "normalize.css": "^7.0.0",

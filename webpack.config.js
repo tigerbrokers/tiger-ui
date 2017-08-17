@@ -1,4 +1,5 @@
 const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
   entry: './index.js',
@@ -6,10 +7,16 @@ module.exports = {
     filename: 'tiger-ui.js',
     library: 'TigerUI',
     libraryTarget: 'umd',
+    sourceMapFilename: 'tiger-ui.js.map',
     path: path.resolve(__dirname, 'dist')
   },
+  devtool: 'cheap-source-map',
   module: {
     rules: [{
+      test: /\.js$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader'
+    }, {
       test: /\.vue$/,
       loader: 'vue-loader',
       options: {}
@@ -17,5 +24,11 @@ module.exports = {
       test: /\.css$/,
       use: [ 'style-loader', 'css-loader' ]
     }]
-  }
+  },
+  plugins: [
+    new webpack.LoaderOptionsPlugin({
+      minimize: true,
+      debug: false
+    })
+  ]
 }
