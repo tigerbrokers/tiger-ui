@@ -4,8 +4,12 @@
     "play": "poi dev --config play.config.js",
     "lint": "eslint . --fix",
     "test": "node .nightwatch/run.js",
-    "build": "poi build --config play.config.js"
+    "build": "npm run build:dist && npm run build:doc",
+    "build:doc": "poi build --config play.config.js",
+    "build:dist": "webpack ."
   },
+  "main": "./dist/tiger-ui.js",
+  "module": "./index.js",
   "devDependencies": {
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
@@ -23,7 +27,11 @@
   "description": "tigerbrokers ui kit",
   "dependencies": {
     "chromedriver": "^2.31.0",
-    "normalize.css": "^7.0.0"
+    "css-loader": "^0.28.5",
+    "normalize.css": "^7.0.0",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^13.0.4",
+    "webpack": "^3.5.5"
   },
   "repository": {
     "type": "git",
