@@ -2,7 +2,6 @@
   "scripts": {
     "start": "npm run play",
     "play": "poi dev --config play.config.js",
-    "precommit": "npm run lint && npm run build && git add docs",
     "lint": "eslint . --fix",
     "test": "node .nightwatch/run.js",
     "build": "poi build --config play.config.js"
@@ -23,7 +22,8 @@
   "version": "0.0.4",
   "description": "tigerbrokers ui kit",
   "dependencies": {
-    "chromedriver": "^2.31.0"
+    "chromedriver": "^2.31.0",
+    "normalize.css": "^7.0.0"
   },
   "repository": {
     "type": "git",
