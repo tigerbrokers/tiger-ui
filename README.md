@@ -3,6 +3,7 @@ TigerUI
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/89ae9b9342a44917b82c9b1c1d9bc712)](https://www.codacy.com/app/ijse/tiger-ui?utm_source=github.com&utm_medium=referral&utm_content=tigerbrokers/tiger-ui&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/tigerbrokers/tiger-ui.svg?branch=master)](https://travis-ci.org/tigerbrokers/tiger-ui)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftigerbrokers%2Ftiger-ui.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftigerbrokers%2Ftiger-ui?ref=badge_shield)
 
 
 
@@ -78,3 +79,6 @@ Clone and make contribution, submit your PRs.
 
 MIT
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftigerbrokers%2Ftiger-ui.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ftigerbrokers%2Ftiger-ui?ref=badge_large)
