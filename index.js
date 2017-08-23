@@ -7,6 +7,8 @@ files.keys().forEach((key) => {
 
 const pkg = require('./package.json')
 
+require('./Styles/index.css')
+
 // export as vue plugin
 export default {
   list: modules,

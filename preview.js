@@ -1,4 +1,5 @@
 /* eslint-disable import/no-unassigned-import */
+import './Styles/index.css'
 
 // ./preview.js
 import './loader' // which is ./index.js

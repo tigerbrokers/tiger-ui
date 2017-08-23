@@ -26,8 +26,11 @@
     "nightwatch": "^0.9.16",
     "normalize.css": "^7.0.0",
     "poi": "^8.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0",
     "postcss-loader": "^2.0.6",
     "style-loader": "^0.18.2",
+    "sugarss": "^1.0.0",
     "vue-loader": "^13.0.4",
     "vue-play": "^3.2.1",
     "webpack": "^3.5.5"
