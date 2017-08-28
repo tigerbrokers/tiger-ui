@@ -1,0 +1,2 @@
+button{color:var(--main-color)}:root{--main-color:red}body,html{position:relative;background-color:blue}body div,html div{color:var(--main-color)}
+/*# sourceMappingURL=tiger-ui.js.map*/

@@ -56,5 +56,8 @@
       "docs"
     ]
   },
-  "homepage": "https://tigerbrokers.github.io/tiger-ui"
+  "homepage": "https://tigerbrokers.github.io/tiger-ui",
+  "dependencies": {
+    "extract-text-webpack-plugin": "^3.0.0"
+  }
 }
