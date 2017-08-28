@@ -11,7 +11,7 @@ module.exports = {
           'last 5 Chrome versions',
           'last 2 Safari versions'
         ]
-      },
+      }
     },
     'cssnano': {
       autoprefixer: false
