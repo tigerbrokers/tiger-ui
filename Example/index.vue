@@ -9,3 +9,8 @@
     example: `<example></example>`
   }
 </script>
+<style scope>
+  button {
+    color: var(--main-color);
+  }
+</style>

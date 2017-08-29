@@ -1,0 +1,12 @@
+:root {
+  --main-color: red;
+}
+
+html, body {
+  position: relative;
+  background-color: blue;
+
+  & div {
+    color: var(--main-color);
+  }
+}
